@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+.google-navigation{
+    display: block;
+}
+
+.google-navigation--ul {
+    text-align: right;
+}
+
+.google-navigation--ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 15px;
+
+}
+
+.google-navigation--ul li a{
+    text-decoration: none;
+}
+
+.usericon {
+    height: 32px;
+    width: 32px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.usergrid{
+    height: 30px;
+    width: 30px;
+
+}
+
+.main-div{
+    display: block;
+}
+.google-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.google-image--div {
+    display: block;
+    margin-top: 109px;
+}
+

@@ -61,21 +61,29 @@ body{
 }
 
 .searchbox {
-    display: block;
-    border: 5px solid grey;
-    border-radius: 8px;
+    height: 44px;
+    width: auto;
+    line-height: 44px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+    font: 16px arial,sans-serif;
+    padding-left: 17px;
    
 }
+
+
 
 
 .searchbox > img {
     display: inline-block;
     width: 20px;
     height: 20px;
-    padding-top: 8px;
+    padding-top: 12px;
 }
 
-.searchinput {
+.searchinput input {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -100,6 +108,15 @@ body{
     color: #222;
 }
 
+#input1 {
+    float: left;
+    margin-left: 70px;
+}
+
+#input2 {
+    float: right;
+    margin-right: 70px;
+}
 
 .country {
     display: block;

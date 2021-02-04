@@ -117,15 +117,7 @@ body{
     margin-right: 70px;
 }
 
-.country {
-    display: block;
-    margin: 0;
-    background: #f2f2f2;
-    font-size: 14px;
-    border: 1px solid rgba(0, 0, 0, 0.54);
-    line-height: 40px;
-    color: #70757a;
-}
+
 
 .advertise {
     display: block;

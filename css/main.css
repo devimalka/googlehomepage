@@ -1,5 +1,10 @@
+html{
+    height: 100%;
+}
 body{
     margin: 0;
+    min-height: 100%;
+    position: relative;
 }
 .google-navigation{
     display: block;
@@ -48,3 +53,90 @@ body{
     margin-top: 109px;
 }
 
+.searchform {
+    display: block;
+    width: 459px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.searchbox {
+    display: block;
+    border: 5px solid grey;
+    border-radius: 8px;
+   
+}
+
+
+.searchbox > img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-top: 8px;
+}
+
+.searchinput {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.searchinput input[type='submit'] {
+    border-radius: 2px;
+    margin-top: 10px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding: 8px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    height: 36px;
+}
+
+.searchinput input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+
+.country {
+    display: block;
+    margin: 0;
+    background: #f2f2f2;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.54);
+    line-height: 40px;
+    color: #70757a;
+}
+
+.advertise {
+    display: block;
+    border: 1px solid #70757a;
+    background: #f2f2f2;
+}
+
+.advertise a {
+    color: #70757a;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 5px;
+    line-height: 40px;
+}
+
+.privacy-terms {
+    display:inline-block ;
+    text-align: right;
+    float: right;
+    
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
+}
